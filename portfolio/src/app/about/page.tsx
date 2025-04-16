@@ -1,5 +1,5 @@
 import { FaJava, FaReact, FaVuejs, FaDocker, FaGitAlt } from "react-icons/fa";
-import { SiSharp, SiSpringboot, SiAngular, SiJenkins } from "react-icons/si";
+import { SiSharp, SiSpringboot, SiAngular, SiJenkins, SiMysql, SiMongodb, SiPostgresql } from "react-icons/si";
 
 export default function AboutPage() {
   return (
@@ -14,8 +14,8 @@ export default function AboutPage() {
             {/* Profile Text */}
             <div className="space-y-6">
               <p className="text-lg text-gray-300 leading-relaxed">
-                Seasoned Full-Stack Engineer with 🛠️ 8+ years expertise in enterprise solutions 
-                and banking systems. Specialize in building robust HRMS, Payroll, and Procurement 
+                Seasoned Full-Stack Engineer with 🛠️ 8+ years expertise in enterprise solutions
+                and banking systems. Specialize in building robust HRMS, Payroll, and Procurement
                 platforms that handle millions in transactions.
               </p>
 
@@ -42,32 +42,73 @@ export default function AboutPage() {
               </div>
             </div>
 
-            {/* Tech Stack */}
-            <div className="grid grid-cols-2 gap-4">
-              <TechCard icon={<FaJava className="text-red-500 text-3xl" />} 
-                title="Java" 
-                experience="8+ years" 
-              />
-              <TechCard icon={<SiSharp className="text-purple-500 text-3xl" />} 
-                title="C#" 
-                experience="5 years" 
-              />
-              <TechCard icon={<FaReact className="text-blue-400 text-3xl" />} 
-                title="React" 
-                experience="3 years" 
-              />
-              <TechCard icon={<FaVuejs className="text-green-500 text-3xl" />} 
-                title="Vue.js" 
-                experience="2 years" 
-              />
-              <TechCard icon={<SiSpringboot className="text-green-400 text-3xl" />} 
-                title="Spring Boot" 
-                experience="4 years" 
-              />
-              <TechCard icon={<FaDocker className="text-blue-300 text-3xl" />} 
-                title="Docker" 
-                experience="3 years" 
-              />
+            {/* Languages & Frameworks */}
+            <div>
+              <h3 className="text-xl font-semibold mb-4">Languages & Frameworks</h3>
+              <div className="grid grid-cols-2 gap-4">
+                <TechCard icon={<FaJava className="text-red-500 text-3xl" />} 
+                  title="Java" 
+                  experience="8+ years" 
+                />
+                <TechCard icon={<SiSharp className="text-purple-500 text-3xl" />} 
+                  title="C#" 
+                  experience="5 years" 
+                />
+                <TechCard icon={<FaReact className="text-blue-400 text-3xl" />} 
+                  title="React" 
+                  experience="3 years" 
+                />
+                <TechCard icon={<FaVuejs className="text-green-500 text-3xl" />} 
+                  title="Vue.js" 
+                  experience="2 years" 
+                />
+                <TechCard icon={<SiSpringboot className="text-green-400 text-3xl" />} 
+                  title="Spring Boot" 
+                  experience="4 years" 
+                />
+                <TechCard icon={<SiAngular className="text-red-500 text-3xl" />} 
+                  title="Angular" 
+                  experience="2 years" 
+                />
+              </div>
+            </div>
+
+            {/* Tools & DevOps */}
+            <div className="mt-12">
+              <h3 className="text-xl font-semibold mb-4">Tools & DevOps</h3>
+              <div className="grid grid-cols-2 gap-4">
+                <TechCard icon={<FaDocker className="text-blue-300 text-3xl" />} 
+                  title="Docker" 
+                  experience="3 years" 
+                />
+                <TechCard icon={<SiJenkins className="text-orange-600 text-3xl" />} 
+                  title="Jenkins" 
+                  experience="2 years" 
+                />
+                <TechCard icon={<FaGitAlt className="text-purple-600 text-3xl" />} 
+                  title="Git" 
+                  experience="8+ years" 
+                />
+              </div>
+            </div>
+
+            {/* Databases */}
+            <div className="mt-12">
+              <h3 className="text-xl font-semibold mb-4">Databases</h3>
+              <div className="grid grid-cols-2 gap-4">
+                <TechCard icon={<SiMysql className="text-blue-500 text-3xl" />} 
+                  title="MySQL" 
+                  experience="5 years" 
+                />
+                <TechCard icon={<SiPostgresql className="text-blue-700 text-3xl" />} 
+                  title="PostgreSQL" 
+                  experience="4 years" 
+                />
+                <TechCard icon={<SiMongodb className="text-green-700 text-3xl" />} 
+                  title="MongoDB" 
+                  experience="2 years" 
+                />
+              </div>
             </div>
           </div>
 
