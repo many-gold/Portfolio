@@ -1,0 +1,24 @@
+[
+    {
+      "title": "AWS Developer Associate",
+      "image": "/certificates/aws-thumb.jpg",
+      "file": "/certificates/aws.pdf",
+      "issuer": "Amazon Web Services",
+      "date": "Nov 2023"
+    },
+    {
+      "title": "Meta Front-End Developer",
+      "image": "/certificates/meta-thumb.jpg",
+      "file": "/certificates/meta.pdf",
+      "issuer": "Meta",
+      "date": "Dec 2023"
+    },
+    {
+      "title": "Google Cloud Associate Engineer",
+      "image": "/certificates/google-thumb.jpg",
+      "file": "/certificates/google.pdf",
+      "issuer": "Google Cloud",
+      "date": "Jan 2024"
+    }
+  ]
+  

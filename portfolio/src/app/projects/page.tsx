@@ -19,8 +19,8 @@ export default function ProjectsPage() {
             tech={["React", "Spring Boot", "Docker", "GitLab CI/CD", "MySQL"]}
           >
             <ul className="space-y-3">
-            <ProjectBullet>Developed Human Resource Management system handling 1,000+ employees</ProjectBullet>
-            <ProjectBullet>Developed Payroll Management system handling 1,000+ employees</ProjectBullet>
+            <ProjectBullet>Developed Human Resource Management system handling employees</ProjectBullet>
+            <ProjectBullet>Developed Payroll Management system handling employees</ProjectBullet>
             <ProjectBullet>Developed banking information portal with responsive UI</ProjectBullet>
             <ProjectBullet>Developed banking Discussion Forum system with responsive UI</ProjectBullet>
             <ProjectBullet>Installed and configured Git for version control</ProjectBullet>
@@ -31,16 +31,16 @@ export default function ProjectsPage() {
           {/* INSA Card */}
           <ProjectCard
             icon={<FaUniversity className="text-purple-400 text-3xl" />}
-            title="INSA"
+            title="Information Network Security Administrator(INSA)"
             duration="2017 - 2023"
             tech={["Java MVC", "Angular", "Oracle DB", "REST APIs", "Docker"]}
           >
             <ul className="space-y-3">
               <ProjectBullet>Led 10-member team in ERP system integration</ProjectBullet>
-              <ProjectBullet>Developed Human Resource Management system handling 1,000+ employees</ProjectBullet>
-              <ProjectBullet>Developed Payroll Management system handling 1,000+ employees</ProjectBullet>
-              <ProjectBullet>Developed Inventory Management system handling 1,000+ employees</ProjectBullet>
-              <ProjectBullet>Developed Procurement Management system handling 1,000+ employees</ProjectBullet>
+              <ProjectBullet>Developed Human Resource Management system handling employees</ProjectBullet>
+              <ProjectBullet>Developed Payroll Management system handling employees</ProjectBullet>
+              <ProjectBullet>Developed Inventory Management system handling employees</ProjectBullet>
+              <ProjectBullet>Developed Procurement Management system handling employees</ProjectBullet>
               <ProjectBullet>Created internal portals information system</ProjectBullet>
               <ProjectBullet>Implemented JWT-based authentication system</ProjectBullet>
               <ProjectBullet>Designed and integrated procurement management systems</ProjectBullet>
@@ -52,12 +52,12 @@ export default function ProjectsPage() {
           {/* HR & Payroll System (Java MVC) */}
           <ProjectCard
             icon={<FaJava className="text-red-500 text-3xl" />}
-            title="HR & Payroll System (Java MVC)"
+            title="Human Resource & Payroll System "
             duration="2018 - 2022"
             tech={["Java MVC", "Spring Boot", "MySQL", "JSP"]}
           >
             <ul className="space-y-3">
-              <ProjectBullet>Developed HRMS with automated payroll processing and tax calculations.</ProjectBullet>
+              <ProjectBullet>Developed Human Resource Management system with automated payroll processing and tax calculations.</ProjectBullet>
               <ProjectBullet>Integrated employee attendance, leave management, and payroll features.</ProjectBullet>
               <ProjectBullet>Built a user role management system for secure access to sensitive data.</ProjectBullet>
               <ProjectBullet>Implemented dynamic reporting and employee data analytics.</ProjectBullet>
@@ -67,7 +67,7 @@ export default function ProjectsPage() {
           {/* Procurement & Inventory System (C# MVC) */}
           <ProjectCard
             icon={<SiSharp className="text-green-500 text-3xl" />}
-            title="Procurement & Inventory System (C# MVC)"
+            title="Procurement & Inventory System "
             duration="2019 - 2021"
             tech={["C# MVC", "SQL Server", "Entity Framework", "REST APIs"]}
           >
@@ -98,12 +98,12 @@ export default function ProjectsPage() {
             icon={<FaWordpress className="text-blue-500 text-3xl" />}
             title="WordPress Website Development"
             duration="2017 - Present"
-            tech={["WordPress", "PHP", "CSS", "JavaScript", "WooCommerce"]}
+            tech={["WordPress", "PHP", "CSS", "JavaScript"]}
           >
             <ul className="space-y-3">
               <ProjectBullet>Developed and maintained custom websites and e-commerce platforms.</ProjectBullet>
               <ProjectBullet>Customized WordPress themes using PHP, HTML, CSS, and JavaScript.</ProjectBullet>
-              <ProjectBullet>Integrated WooCommerce for seamless online shopping experiences.</ProjectBullet>
+            
               <ProjectBullet>Optimized websites for SEO, performance, and security.</ProjectBullet>
             </ul>
           </ProjectCard>

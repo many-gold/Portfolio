@@ -1,5 +1,5 @@
 import { FaJava, FaReact, FaVuejs, FaDocker, FaGitAlt } from "react-icons/fa";
-import { SiSharp, SiSpringboot, SiAngular, SiJenkins, SiMysql, SiMongodb, SiPostgresql } from "react-icons/si";
+import { SiSharp, SiSpringboot, SiAngular, SiJenkins, SiMysql, SiMongodb, SiPostgresql, SiJira } from "react-icons/si";
 
 export default function AboutPage() {
   return (
@@ -81,8 +81,8 @@ export default function AboutPage() {
                   title="Docker" 
                   experience="3 years" 
                 />
-                <TechCard icon={<SiJenkins className="text-orange-600 text-3xl" />} 
-                  title="Jenkins" 
+                <TechCard icon={<SiJira className="text-orange-600 text-3xl" />} 
+                  title="Jira" 
                   experience="2 years" 
                 />
                 <TechCard icon={<FaGitAlt className="text-purple-600 text-3xl" />} 

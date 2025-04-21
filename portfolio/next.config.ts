@@ -1,19 +1,10 @@
 import type { NextConfig } from "next";
-import webpack from "webpack";
 
 const nextConfig: NextConfig = {
+  poweredByHeader: false,
   reactStrictMode: true,
-  webpack(config, { isServer, dev }) {
-    // Disable React DevTools in production
-    if (!dev && !isServer) {
-      config.plugins.push(
-        new webpack.DefinePlugin({
-          "process.env.NEXT_DISABLE_DEVTOOLS": JSON.stringify("1"),
-        })
-      );
-    }
-
-    return config;
+  env: {
+    NEXT_DISABLE_DEVTOOLS: "1", // 👈 expose to browser
   },
 };
 
